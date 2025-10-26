@@ -61,6 +61,13 @@
       thumbs.forEach(img => img.classList.remove('active'));
       thumb.classList.add('active');
     }
+    window.onload = function () {
+  const firstThumb = document.querySelector('.thumbnails img');
+  if (firstThumb) {
+    changeImage(firstThumb);
+  }
+};
+
   </script>
   <p>가격: 3,000원</p>
   <p>설명: 귀엽고 소중한 말랑이에요!</p>
