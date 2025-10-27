@@ -56,7 +56,6 @@
       const mainImage = document.getElementById('mainImage');
       mainImage.src = thumb.src;
 
-      // 썸네일 active 클래스 처리
       const thumbs = document.querySelectorAll('.thumbnails img');
       thumbs.forEach(img => img.classList.remove('active'));
       thumb.classList.add('active');
